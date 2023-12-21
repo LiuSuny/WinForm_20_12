@@ -15,6 +15,8 @@ namespace WinForm_20_12
         public Form1()
         {
             InitializeComponent();
+            //Random rnd = new Random();
+            //number1.Value= rnd.Next((int)number1.Maximum, (int)number1.Maximum);
         }
         private void handMakeClickCacl(object sender, EventArgs e)
         {
@@ -62,7 +64,7 @@ namespace WinForm_20_12
             }
             catch (Exception exception)
             {
-                result.Text = "Некорректные данные";
+                result.Text = "Incorrect Digit";
             }
         }
     }
